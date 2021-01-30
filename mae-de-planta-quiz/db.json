@@ -1,7 +1,7 @@
 {
-    "bg": "assets/img/fundo.png",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg": "./assets/img/fundo.png",
+    "title": "Você sabe tudo sobre plantas?",
+    "description": "Teste os seus conhecimentos sobre  plantinhas e divirta-se!",
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
