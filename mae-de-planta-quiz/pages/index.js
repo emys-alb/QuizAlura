@@ -34,8 +34,8 @@ text-align: center;
 export default function Home() {
   return(
     <QuizBackground backgroundImage={db.bg}>
+      <QuizLogo />
       <QuizContainer>
-        <QuizLogo />
         <Widget>
           <Header>{db.title}</Header>
           <Widget.Content>
