@@ -18,15 +18,26 @@ export const QuizContainer = styled.div`
   }
 `;
 
+const Header = styled.header`
+display: flex;
+padding: 18px 32px;
+font-size: 16px;
+font-weight: 700;
+line-height: 1;
+margin-bottom: 0;
+
+letter-spacing: 0em;
+text-align: center;
+
+`;
+
 export default function Home() {
   return(
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo />
         <Widget>
-          <Widget.Header>
-            <h1>{db.title}</h1>
-          </Widget.Header>
+          <Header>{db.title}</Header>
           <Widget.Content>
             <p>{db.description}</p>
           </Widget.Content>
